@@ -1,0 +1,16 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+form button {
+    width: 150px;
+    margin-top: 15px;
+}
+.galery {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
