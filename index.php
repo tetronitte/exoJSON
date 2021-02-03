@@ -109,7 +109,9 @@ function displayIMG() {
         <meta charset="UTF-8">
         <link rel="stylesheet" href="index.css">
     <body>
-        <?php include('../../navbar.php'); ?>
+        <?php //pas de navbar sur w10
+        // include('../../navbar.php'); 
+        ?>
         <form action="index.php" method="POST" enctype="multipart/form-data">
             <input type="file" name="image" id="image"/>
             <button type="submit">Ajouter l'image</button>
