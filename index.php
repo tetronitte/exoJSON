@@ -50,7 +50,7 @@ function addJSON($newFileName,$extension) {
 function resize_rename_upload($filename,$extension,$fileTmpName) {
     $uploadedFile = $fileTmpName; 
     $sourceProperties = getimagesize($uploadedFile);
-    $newFileName = time()."_coucou.";
+    $newFileName = time()."_thump.";
     $dirPath = "img/";
     switch ($extension) {
         case "jpg":
